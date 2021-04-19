@@ -1,0 +1,7 @@
+# OnePlus 8 Pro identification
+ro.build.fingerprint=google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+ro.product.manufacturer=OnePlus
+ro.product.device=instantnoodlep
+ro.product.brand=OnePlus
+ro.product.name=instantnoodlep
+ro.product.model=IN2023

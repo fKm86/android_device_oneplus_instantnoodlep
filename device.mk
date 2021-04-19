@@ -25,7 +25,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-pixeldust
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -59,3 +59,8 @@ $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/instantnoodlep/instantnoodlep-vendor.mk)
+
+
+LOCAL_PATH := device/oneplus/instantnoodlep
+
+TARGET_SYSTEM_PROP := $(LOCAL_PATH)/instantnoodlep.prop
