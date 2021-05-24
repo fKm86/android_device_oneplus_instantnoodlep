@@ -21,10 +21,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from instantnoodlep device
 $(call inherit-product, device/oneplus/instantnoodlep/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-PRODUCT_NAME := lineage_instantnoodlep
+# Google Camera
+$(call inherit-product, packages/apps/googlecamera/config.mk)
+
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+IS_PHONE := true
+DEVICE_MAINTAINER := fKm86
+TARGET_GAPPS_ARCH := arm64
+TARGET_USES_FACE_UNLOCK := true
+
+TARGET_SUPPORTS_BLUR := true
+EXTRA_FOD_ANIMATIONS := true
+
+PRODUCT_NAME := arrow_instantnoodlep
 PRODUCT_DEVICE := instantnoodlep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

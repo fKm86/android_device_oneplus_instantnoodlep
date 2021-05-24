@@ -25,7 +25,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-arrow
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -47,10 +47,6 @@ PRODUCT_PACKAGES += \
 # OPFeature
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
-
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oneplus_kona
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
