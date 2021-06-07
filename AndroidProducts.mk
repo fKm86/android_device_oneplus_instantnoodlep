@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_instantnoodlep.mk
+    $(LOCAL_DIR)/bliss_instantnoodlep.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_instantnoodlep-user \
-    evolution_instantnoodlep-userdebug \
-    evolution_instantnoodlep-eng
+    bliss_instantnoodlep-user \
+    bliss_instantnoodlep-userdebug \
+    bliss_instantnoodlep-eng
