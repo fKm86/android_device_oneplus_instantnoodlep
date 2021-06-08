@@ -1,0 +1,7 @@
+# Device identification
+ro.build.fingerprint=OnePlus/OnePlus8Pro/OnePlus8Pro:10/QKQ1.191222.002/2005301332:user/release-keys
+ro.product.manufacturer=OnePlus
+ro.product.device=instantnoodlep
+ro.product.brand=oneplus
+ro.product.name=instantnoodlep
+ro.product.model=OnePlus 8 Pro
