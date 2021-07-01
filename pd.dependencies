@@ -30,10 +30,10 @@
         "revision":     "elle"
     },
     {
-        "target_path":  "vendor/pixelgapps",
-        "repository":   "pixeldust-eleven/android_vendor_pixelgapps",
+        "target_path":  "vendor/gms",
+        "repository":   "EvoX/vendor_gapps",
         "remote":       "gitlab",
-        "branch":       "11"
+        "branch":       "elle"
     },
     {
         "target_path":  "packages/apps/googlecamera",
