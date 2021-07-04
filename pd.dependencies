@@ -1,0 +1,56 @@
+[
+    {
+        "target_path":  "device/oneplus/instantnoodlep",
+        "repository":   "fKm86/android_device_oneplus_instantnoodlep",
+        "remote":       "github",
+        "revision":     "pd"
+    },
+    {
+        "target_path":  "device/oneplus/sm8250-common",
+        "repository":   "fKm86/android_device_oneplus_sm8250-common",
+        "remote":       "github",
+        "revision":     "pd"
+    },
+    {
+        "target_path":  "kernel/oneplus/sm8250",
+        "repository":   "Evolution-X-Devices/kernel_oneplus_sm8250",
+        "remote":       "github",
+        "revision":     "elle"
+    },
+    {
+        "target_path":  "device/oneplus/common",
+        "repository":   "Evolution-X-Devices/device_oneplus_common",
+        "remote":       "github",
+        "revision":     "elle"
+    },	
+    {
+        "target_path":  "vendor/oneplus",
+        "repository":   "Evolution-X-Devices/vendor_oneplus-new",
+        "remote":       "github",
+        "revision":     "elle"
+    },
+    {
+        "target_path":  "vendor/gms",
+        "repository":   "EvoX/vendor_gapps",
+        "remote":       "gitlab",
+        "branch":       "elle"
+    },
+    {
+        "target_path":  "vendor/google/camera",
+        "repository":   "anierin.t.bliss/vendor_google_camera",
+        "remote":       "gitlab",
+        "branch":       "master"
+    },
+    {
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
+        "repository":   "kdrag0n/proton-clang",
+        "remote":       "github",
+        "revision":     "master"
+    }
+    {
+        "target_path":  "hardware/qcom-caf/bootctrl",
+        "repository":   "android_hardware_qcom_bootctrl",
+        "remote":       "lineage",
+        "revision":     "lineage-18.1-caf"
+    }
+]
