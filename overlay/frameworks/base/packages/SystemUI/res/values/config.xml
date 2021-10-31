@@ -23,4 +23,5 @@
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
 
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">121</integer>
 </resources>
