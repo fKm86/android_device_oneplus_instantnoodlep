@@ -41,3 +41,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus8Pro-user 11   release-keys"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus8Pro/OnePlus8Pro:10/QKQ1.191222.002/2005301332:user/release-keys
+
+# ArrowOS additions
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
