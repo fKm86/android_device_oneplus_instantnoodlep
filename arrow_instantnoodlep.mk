@@ -27,6 +27,9 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1440
 
+# Google Apps
+ARROW_GAPPS := true
+
 PRODUCT_NAME := arrow_instantnoodlep
 PRODUCT_DEVICE := instantnoodlep
 PRODUCT_MANUFACTURER := OnePlus
