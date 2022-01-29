@@ -23,6 +23,7 @@ $(call inherit-product, device/oneplus/instantnoodlep/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
+DEVICE_MAINTAINER := fKm
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1440
