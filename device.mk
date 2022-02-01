@@ -25,7 +25,7 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-arrow
+    $(LOCAL_PATH)/overlay-pixeldust
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -47,8 +47,6 @@ PRODUCT_PACKAGES += \
 # Wifi Overlay
 PRODUCT_PACKAGES += \
     OnePlus8PWifiOverlay
-
-PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
